@@ -1,2 +1,36 @@
 /* this is a comment */
 
+div#row1  { 
+background-color:gray;
+height:50%;
+
+}
+
+div#columns1  { 
+background-color:red;
+
+
+}
+
+
+
+div#columns2  { 
+background-color:black;
+color:white;
+
+}
+
+
+div#columns3  { 
+background-color:blue;
+height:85%;
+
+}
+div#columns4  { 
+background-color:red;
+  margin-top: -10%;
+  height: 50%;
+  float: right;
+  margin-right: 30%;
+
+}
