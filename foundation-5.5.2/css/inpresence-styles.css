@@ -13,6 +13,7 @@ div#columns1  {
 
 
 
+
 div#columns2  { 
 background-color:black;
 color:white;
@@ -33,6 +34,21 @@ div#columns4  {
 
 .placeholder {
 	height: 100px;
-	background: white;
-	border-top: 1px solid black;
+
+}
+
+
+body{
+
+background: #000168; /* Old browsers */
+background: -moz-linear-gradient(top,  #000168 0%, #1e9cd7 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000168), color-stop(100%,#1e9cd7)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #000168 0%,#1e9cd7 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #000168 0%,#1e9cd7 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #000168 0%,#1e9cd7 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #000168 0%,#1e9cd7 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000168', endColorstr='#1e9cd7',GradientType=0 ); /* IE6-9 */
+
+
+
 }
