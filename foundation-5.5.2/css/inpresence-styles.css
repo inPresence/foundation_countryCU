@@ -29,7 +29,4 @@ background: -o-linear-gradient(top,  #000168 0%,#1e9cd7 100%); /* Opera 11.10+ *
 background: -ms-linear-gradient(top,  #000168 0%,#1e9cd7 100%); /* IE10+ */
 background: linear-gradient(to bottom,  #000168 0%,#1e9cd7 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000168', endColorstr='#1e9cd7',GradientType=0 ); /* IE6-9 */
-
-
-
 }
