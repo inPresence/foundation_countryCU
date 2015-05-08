@@ -1,2 +1,6 @@
 /* this is a comment */
 
+#footer {
+	border-top: 1px solid #1B8DCC;
+	border-bottom: 1px solid #1B8DCC;
+}
