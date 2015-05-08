@@ -21,6 +21,18 @@
 	
 .placeholder {
 	height: 100px;
-	background: white;
+	background: #ebebeb;
 	border-top: 1px solid black;
 }
+
+#sidebar {
+	background-color: #ebebeb;
+	border-right: 1px solid #3fa9f5;
+	}
+	
+h4 {
+	color: #000168;
+	}
+	
+#content-left {
+	border-right: 1px solid #3fa9f5;}
