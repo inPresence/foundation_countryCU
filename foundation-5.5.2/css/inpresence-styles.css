@@ -1,13 +1,12 @@
 /* this is a comment */
 
 div#row1  { 
-background-color:gray;
-height:50%;
+
 
 }
 
 div#columns1  { 
-background-color:red;
+
 
 
 }
@@ -22,15 +21,18 @@ color:white;
 
 
 div#columns3  { 
-background-color:blue;
-height:85%;
+
 
 }
 div#columns4  { 
-background-color:red;
-  margin-top: -12%;
-  height: 50%;
-  float: right;
-  margin-right: 30%;
 
+
+
+}
+
+
+.placeholder {
+	height: 100px;
+	background: white;
+	border-top: 1px solid black;
 }
