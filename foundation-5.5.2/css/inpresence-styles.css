@@ -8,6 +8,7 @@ body {
     background: linear-gradient(to bottom,  #000168 0%,#1e9cd7 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000168', endColorstr='#1e9cd7',GradientType=0 ); /* IE6-9 */
 
+<<<<<<< HEAD
 }
 
 #tagline {
@@ -18,4 +19,9 @@ body {
 #logo {
     width: 250px;
     margin-top: 20px;
+=======
+#footer {
+	border-top: 1px solid #1B8DCC;
+	border-bottom: 1px solid #1B8DCC;
+>>>>>>> fc44077d6888b4ae8019d1caa67402ad72e88fe0
 }
