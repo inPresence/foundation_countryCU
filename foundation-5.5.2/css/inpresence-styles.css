@@ -26,6 +26,49 @@ body {
 }
 
 #footer {
+<<<<<<< HEAD
+	border-top: 1px solid #3fa9f5;
+	border-bottom: 1px solid #3fa9f5;
+	padding: 15px 0;
+}
+
+#footer img {
+	max-height: 50px;
+	padding: 0 2px;
+	}
+	
+.button {
+	background-color: #3fa9f5;
+	}
+	
+#footer .button.postfix {
+	width: auto;
+	}
+	
+.placeholder {
+	height: 100px;
+	background: #ebebeb;
+	border-top: 1px solid black;
+}
+
+#sidebar {
+	background-color: #ebebeb;
+	border-right: 1px solid #3fa9f5;
+	}
+	
+h4 {
+	color: #000168;
+}
+
+h6 {
+	font-weight: 800;
+	color: orange;
+	}	
+#content-left {
+	border-right: 1px solid #3fa9f5;
+	}
+	
+=======
 	border-top: 1px solid #1B8DCC;
 	border-bottom: 1px solid #1B8DCC;
 
@@ -62,3 +105,4 @@ background: linear-gradient(to bottom,  #000168 0%,#1e9cd7 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000168', endColorstr='#1e9cd7',GradientType=0 ); /* IE6-9 */
 }
 >>>>>>> 642a3fe5ffeadcf14cf87cfee67c4939355b5c65
+>>>>>>> master
