@@ -8,8 +8,8 @@ body {
     background: linear-gradient(to bottom,  #000168 0%,#1e9cd7 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000168', endColorstr='#1e9cd7',GradientType=0 ); /* IE6-9 */
 	background-attachment: fixed;
+	padding-top: 10px;
 
-<<<<<<< HEAD
 }
 
 #tagline {
@@ -31,6 +31,8 @@ body {
 	border-top: 1px solid #3fa9f5;
 	border-bottom: 1px solid #3fa9f5;
 	padding: 15px 0;
+	border-top: 1px solid #3fa9f5;
+	border-bottom: 1px solid #3fa9f5;
 }
 
 #footer img {
@@ -68,6 +70,8 @@ h6 {
 #content-left {
 	border-right: 1px solid #3fa9f5;
 	}
+#main-content, #footer {
+	background: white;}
 	
 =======
 	border-top: 1px solid #1B8DCC;
@@ -90,5 +94,22 @@ color:white;
 
 .placeholder {
 	height: 100px;
+}
 
+label.inline {
+	color: white;
+	}
+	
+.login_banner {
+	color: white;
+	}
+
+@media only screen and (max-width: 40em) {
+#row2 {
+display: none;
+
+}
+
+#searchbar {
+	margin-top: 1em;}
 }
