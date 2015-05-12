@@ -12,6 +12,15 @@ body {
 <<<<<<< HEAD
 }
 
+label {
+    color: white;
+}
+
+#logo, #tagline {
+    display: block;
+    margin: 0 auto;
+}
+
 #tagline {
     width: 250px;
     margin-top: 50px;
@@ -22,8 +31,32 @@ body {
     margin-top: 20px;
 }
 
+#login {
+    margin-top: 10px;
+}
+
+#login_btn {
+    display: block;
+}
+
 .top-bar {
     margin-top: 10px;
+}
+
+.tab-bar {
+    background: transparent;
+}
+
+#main_nav {
+    background: transparent;
+}
+
+#main_nav * {
+    background: transparent;
+}
+
+#main_nav ul.dropdown li {
+    background: #333333;
 }
 
 #footer {
@@ -37,15 +70,19 @@ body {
 	max-height: 50px;
 	padding: 0 2px;
 	}
-	
+
+#searchbar {
+    margin-top: 10px;
+}
+
 .button {
 	background-color: #3fa9f5;
 	}
-	
+
 #footer .button.postfix {
 	width: auto;
 	}
-	
+
 .placeholder {
 	height: 100px;
 	background: #ebebeb;
@@ -56,7 +93,7 @@ body {
 	background-color: #ebebeb;
 	border-right: 1px solid #3fa9f5;
 	}
-	
+
 h4 {
 	color: #000168;
 }
@@ -64,11 +101,11 @@ h4 {
 h6 {
 	font-weight: 800;
 	color: orange;
-	}	
+	}
 #content-left {
 	border-right: 1px solid #3fa9f5;
 	}
-	
+
 =======
 	border-top: 1px solid #1B8DCC;
 	border-bottom: 1px solid #1B8DCC;
@@ -79,7 +116,7 @@ h6 {
 
 
 
-div#columns2  { 
+div#columns2  {
 background-color:black;
 color:white;
 
