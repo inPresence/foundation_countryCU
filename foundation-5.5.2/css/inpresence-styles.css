@@ -36,7 +36,12 @@ label {
 }
 
 #login_btn {
-    display: block;
+    display: inline-block;
+    padding: 5px;
+    margin: 0;
+    float: right;
+    width: 150px;
+    font-size: 10pt;
 }
 
 .top-bar {
@@ -59,6 +64,11 @@ label {
     background: #333333;
 }
 
+.content {
+    margin-top: 10px;
+    background-color: white;
+}
+
 #footer {
 <<<<<<< HEAD
 	border-top: 1px solid #3fa9f5;
@@ -66,6 +76,8 @@ label {
 	padding: 15px 0;
 	border-top: 1px solid #3fa9f5;
 	border-bottom: 1px solid #3fa9f5;
+
+    background-color: white;
 }
 
 #footer img {
@@ -112,7 +124,7 @@ h6 {
 =======
 #main-content, #footer {
 	background: white;}
-	
+
 >>>>>>> db46ac1827b291490ab614c64ba76d398de986e9
 =======
 	border-top: 1px solid #1B8DCC;
@@ -140,17 +152,24 @@ color:white;
 label.inline {
 	color: white;
 	}
-	
+
 .login_banner {
 	color: white;
 	}
 
 @media only screen and (max-width: 40em) {
-#row2 {
-display: none;
+    #row2 {
+        display: none;
+    }
 
-}
+    #searchbar {
+    	margin-top: 1em;
+    }
 
-#searchbar {
-	margin-top: 1em;}
+    /*#login_btn {
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }*/
+
 }
