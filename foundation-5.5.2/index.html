@@ -74,10 +74,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="small-3 columns">
+                <div class="small-3 medium-3 large-3 columns">
                     <label for="pwd" class="right inline">Password</label>
                 </div>
-                <div class="small-9 columns">
+                <div class="small-9 medium-9 large-9 columns">
                     <input type="text" id="pwd">
                 </div>
             </div>
@@ -135,18 +135,18 @@
      <!-- <div class="row placeholder" id=""></div> -->
  <div class="row" id="row2" >
 
-<div class="medium-9 large-9 small-centered  columns" id="columns3">
+<div class="medium-12 large-12 small-centered  columns" id="columns3">
 
-<a href="#"><img src="img\orbit_placeholder.png" alt=" " ></a></a>
+<a href="#"><img id="banner" src="img\orbit_placeholder.png" alt=" " ></a></a>
 
 	</div>
   <div class="small-2 small-centered  columns"id=""></div>
 </div>
 
 
-	<div class="row content" id="main-content">
+	<div class="row content" id="main-content" data-equalizer>
 
-		<div class="medium-2 large-2 columns text-center" id="sidebar">
+		<!-- <div class="small-12 small-push-12 medium-2 large-2 columns text-center" id="sidebar" data-equalizer-watch>
 			<h4>Information Line</h4>
 			<h6>Sample Text</h6>
 			<p>Write more information here <br><a href="#">Read More</a></p>
@@ -161,15 +161,32 @@
 
 			<h4>Helpful Links</h4>
 			<a href = "#"><img src="clock.png" /></a>
-		</div>
+		</div> -->
 
-		<div class="medium-5 large-5 columns text-center" id="content-left">
+		<div class="small-12 medium-5 medium-push-2 large-5 columns text-center" id="content-left" data-equalizer-watch>
 			<h4>Mobile Branch is Coming!</h4>
 			<img src="img/mother_daughterHP.png" style="width:100%;"/>
 			<p class="text-justify">Welcome to the Country Federal Credit Union Web Site. Welcome to the Country Federal Credit Union Web Site. Welcome to the Country Federal Credit Union Web Site. Welcome to the Country Federal Credit Union Web Site. Welcome to the Country Federal Credit Union Web Site. Welcome to the Country Federal Credit Union Web Site. </p>
 		</div>
 
-		<div class="medium-5 large-5 columns text-center" id="content-right">
+        <div class="small-12 medium-2 medium-pull-5 large-2 columns text-center" id="sidebar" data-equalizer-watch>
+            <h4>Information Line</h4>
+            <h6>Sample Text</h6>
+            <p>Write more information here <br><a href="#">Read More</a></p>
+
+
+            <h6>Sample Text</h6>
+            <p>Write more information here <br><a href="#">Read More</a></p>
+
+            <h6>Sample Text</h6>
+            <p>Write more information here <br><a href="#">Read More</a></p>
+
+
+            <h4>Helpful Links</h4>
+            <a href = "#"><img src="clock.png" /></a>
+        </div>
+
+		<div class="small-12 medium-5 large-5 columns text-center" id="content-right" data-equalizer-watch>
 			<h4>Our Partners <h4>
 			<a href="#"><img src="img/ads/florida.png" /><br></br></a>
 			<a href="#"><img src="img/ads/2b5072bf-aa4a-2d16-4e20-a630af159e53.jpg" /><br /><br></br></a>
@@ -186,12 +203,12 @@
     		<a href="#"><img src="img\footer_img\ncualarge.gif" /></a>
 	    </div>
     	  <div class="small-12 medium-6 large-6 columns" id="footer-row-right">
-                <div class="right" id="searchbar">
-                    <div class="small-12 large-8 columns">
+                <div class="row collapse" id="searchbar">
+                    <div class="small-8 medium-8 large-8 columns">
                         <input type="text" value="Enter search term">
                     </div>
-                    <div class="small-12 large-4 columns">
-                        <input type="submit" value="Search" href="#" class="button postfix">
+                    <div class="small-4 medium-4 large-4 columns">
+                        <a href="#" class="button postfix">Search</a>
                     </div>
                 </div>
     	  </div>

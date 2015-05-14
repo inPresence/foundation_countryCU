@@ -35,6 +35,10 @@ label {
     margin-top: 10px;
 }
 
+#login input {
+    /*max-width: 200px;*/
+}
+
 #login_btn {
     display: inline-block;
     padding: 5px;
@@ -62,6 +66,10 @@ label {
 
 #main_nav ul.dropdown li {
     background: #333333;
+}
+
+img#banner {
+    width: 100%;
 }
 
 .content {
@@ -166,10 +174,26 @@ label.inline {
     	margin-top: 1em;
     }
 
-    /*#login_btn {
+    #login_btn {
         display: block;
         margin: 0 auto;
         float: none;
-    }*/
+    }
+
+}
+
+@media only screen and (orientation: portrait) and (min-width: 40.063em) and (max-width: 64em) {
+    #login input {
+        height: 20px;
+        margin: 0;
+    }
+
+    #login label {
+        margin: 0;
+    }
+
+    #login_btn {
+        margin-top: 10px;
+    }
 
 }
