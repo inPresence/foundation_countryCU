@@ -32,7 +32,7 @@ label {
 }
 
 #login {
-    margin-top: 10px;
+    margin-top: 28px;
 }
 
 #login input {
@@ -46,6 +46,7 @@ label {
     float: right;
     width: 150px;
     font-size: 10pt;
+	right: 25px;
 }
 
 .top-bar {
@@ -91,6 +92,9 @@ img#banner {
 #footer img {
 	max-height: 50px;
 	padding: 0 2px;
+	}
+#footer img:hover {
+	opacity: 0.75;
 	}
 
 #searchbar {
@@ -163,6 +167,10 @@ label.inline {
 
 .login_banner {
 	color: white;
+	}
+	
+#footer-row-middle img:hover {
+	opacity: 0.75;
 	}
 
 @media only screen and (max-width: 40em) {
