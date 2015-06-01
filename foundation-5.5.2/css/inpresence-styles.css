@@ -46,7 +46,6 @@ label {
     float: right;
     width: 150px;
     font-size: 10pt;
-	right: 25px;
 }
 
 .top-bar {
@@ -55,6 +54,14 @@ label {
 
 .tab-bar {
     background: transparent;
+}
+
+#forgot-text {
+    float: right;
+    margin-right: 10px;
+    color: white;
+    font-size: 10pt;
+    line-height: 26px;
 }
 
 #main_nav {
@@ -168,7 +175,7 @@ label.inline {
 .login_banner {
 	color: white;
 	}
-	
+
 #footer-row-middle img:hover {
 	opacity: 0.75;
 	}
